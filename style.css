@@ -32,15 +32,6 @@
     padding: 0px;
 }
 
-
-
-
-
-.container {
-    color: white;
-    width: 100%;
-}
-
 .bg-barber {   
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9)), url("imgs/handsome-man-shaving-beard-barbershop.jpg");
     background-size: 100% ;
@@ -293,4 +284,14 @@
 
 .card-text {
     font-size: 24px;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
 }

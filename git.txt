@@ -3,3 +3,6 @@ ordem para dar commit
 git add . (ponto para adicionar todas as alterações para a branch)
 git commit -m "mensagem que define a alteração"
 git push origin main
+
+
+
