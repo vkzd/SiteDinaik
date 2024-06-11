@@ -105,10 +105,7 @@
     display: grid;
 }
 
-.row {
-    align-items: center !important;
-    margin: auto 250px;
-}
+
 
 .msg-contato {
     justify-content: center;
@@ -178,7 +175,7 @@
     letter-spacing: 0;
   }
 
-  .col-especiais {
+.col-especiais {
     background-color: #1f1f1f;
     width: 140px !important;
     display: grid;
@@ -195,4 +192,105 @@
     margin-top: 700px;
     display: grid;
 }
+.conteudo {
+    display: block;
+    margin: auto;
+}
+.conteudo2 {
+    display: block;
+    margin: 50px -104px;
+}
 
+
+/*Style Zero*/
+
+.body-zero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: -260px 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    background-color: rgb(242, 242, 242);
+}
+
+.title {
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style: normal;
+    letter-spacing: 1px;
+    justify-self: center;
+    display: grid;
+    align-self: center;
+    
+}
+
+.intro {
+    max-width: 750px;
+    margin: 15px auto;
+    font-weight: 700;
+    font-size: 20px;
+    opacity: 80%;
+    align-self: center !important;
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    background-color:white;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-right: 5px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    max-width: 500px;
+}
+
+.image {
+    width: 200px; 
+    height: auto;
+    margin-right: 20px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+     }
+
+.text {
+    text-align: left;
+ }
+ p{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+ }
+
+.card {
+    width: 800px !important;
+    justify-self: center !important;
+    align-self: center !important;
+    
+}
+
+.d-flex{
+    font-weight: 600;
+    margin-bottom: 50px;
+    font-size: large;
+    width: 750px;
+    align-self: center !important;
+    justify-self: right !important;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 24px;
+}
