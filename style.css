@@ -331,4 +331,21 @@ iframe{
 }
 .btn:hover::after {
     margin-top:-8px;
+  
+}
+
+.btn:hover {
+      color: #1f1f1f;
+}
+
+.rodape:hover {
+    color: white !important;
+}
+
+.Serviços {
+    color: white !important;
+}
+
+.Serviços:hover {
+    color: black !important;
 }
